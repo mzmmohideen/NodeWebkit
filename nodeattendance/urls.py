@@ -7,7 +7,7 @@ from nodeattendance import settings
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-	url(r'^$', enter_attendance),
+	url(r'^$', login),
 	url(r'^enter_attendance/',enter_attendance),
     # Examples:
     # url(r'^nodeattendance/', include('nodeattendance.foo.urls')),
